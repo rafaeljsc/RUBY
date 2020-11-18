@@ -1,0 +1,4 @@
+rspec [* | arquivo.rb]: report resumido no console
+rspec [* | arquivo.rb] -fd: report detalhado no console
+rspec [* | arquivo.rb] --format html --out report.html [-fd]: report detalhado em html
+rspec [* | arquivo.rb] --format RspecJunitFormatter --out report.xml: report detalhado em xml (requer gem 'rspec_junit_formatter')
