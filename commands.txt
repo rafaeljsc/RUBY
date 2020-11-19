@@ -1,0 +1,8 @@
+bundle init: monta a estrutura para inicializar o ruby no diretório atual
+bundle install: instala as gems (módulos) especificados no arquivo "gemfile"
+rspec --init: inicializa o rspec
+rspec [* | arquivo.rb]: report resumido no console
+rspec [* | arquivo.rb] -fd: report detalhado no console
+rspec [* | arquivo.rb] --format html --out report.html [-fd]: report detalhado em html
+rspec [* | arquivo.rb] --format RspecJunitFormatter --out report.xml: report detalhado em xml (requer gem 'rspec_junit_formatter')
+rspec --tag @tag: executa o teste da tag @tag, especificada no describe
